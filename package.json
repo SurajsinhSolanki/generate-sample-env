@@ -1,0 +1,30 @@
+{
+  "name": "generate-sample-env",
+  "version": "1.0.0",
+  "description": "A Node.js project to generate sample .env files",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && npm run start",
+    "publish": "npm publish"
+  },
+  "bin": {
+    "generate-sample-env": "./dist/index.js"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "environment",
+    "sample",
+    "dotenv"
+  ],
+  "author": "Surajsinh Solanki",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {}
+}
+
