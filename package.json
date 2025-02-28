@@ -10,7 +10,7 @@
     "publish": "npm publish"
   },
   "bin": {
-    "generate-sample-env": "./dist/index.js"
+    "generate-sample-env": "dist/index.js"
   },
   "keywords": [
     "node",
@@ -28,7 +28,6 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/SurajsinhSolanki/generate-sample-env.git"
+    "url": "git+https://github.com/SurajsinhSolanki/generate-sample-env.git"
   }
 }
-
